@@ -1,0 +1,41 @@
+.divCreateToDo {
+  align-items: center;
+  justify-content: space-between;
+  padding: 10%;
+}
+
+.divModal {
+  border-radius: 20px;
+  background-color: rgb(236, 236, 236);
+}
+
+.divButton {
+  text-align: center;
+  justify-content: space-between;
+  margin: 8% 8% 0 8%;
+  display: flex;
+}
+
+.title {
+  text-align: center;
+  color: #1646b2;
+  margin-bottom: 30px;
+}
+
+.divInputs {
+  text-align: center;
+}
+
+.button {
+  color: #1646b2;
+  margin: 1%;
+  width: 150px;
+  background-color: #9bacd6;
+  border-radius: 15px;
+  justify-content: space-around;
+  display: flex;
+}
+
+.iconAdd {
+  color: #558d5a;
+}

@@ -1,0 +1,29 @@
+Comandos para criar aplicação NESTJS
+
+npx @nestjs/cli new store --> Onde "Store" é o nome do meu projeto;
+
+npm install class-validator class-transformer;
+
+npm install uuid --> Para gerar UUID automatico;
+
+npm install -D @types/uuid --> drives do UUID;
+
+===================================== TypeORM =====================================
+
+npm install @nestjs/typeorm typeorm --> instalar typeORM no projeto;
+
+npm install @nestjs/config --> colocar as variaveis sensiveis como Var de ambientes, não subir no git
+
+npm install pg --> instalar packages do Postegres
+
+======================== Crypt para senha e Autenticação JWT ========================
+
+npm i bcrypt@5.1.0 -E
+
+npm i --save-dev @types/bcrypt
+
+nest g resource modules/autentication --no--spec
+
+npm i @nestjs/jwt@10.1.0 -E
+
+nest g guard modules/autentication/autentication --no-spec
